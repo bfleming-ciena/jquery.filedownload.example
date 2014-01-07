@@ -1,14 +1,18 @@
 #!/usr/bin/env python
+import time, Cookie
 
-print "Content-Disposition: attachment; filename=demo/log.txt"
+# Delay to make it realisitc.
+import time
+time.sleep(5)
+
+print "Content-Disposition: attachment; filename=pic.jpg"
 print "Set-Cookie: fileDownload=true;path=/"
 print 'Content-Type: text/html\n'
 
 
 import urllib2
-response = urllib2.urlopen('http://localhost/demo/log.txt')
+response = urllib2.urlopen('http://localhost/demo/pic.jpg')
 html = response.read()
 print html
-import time
-time.sleep(5)
+
 
