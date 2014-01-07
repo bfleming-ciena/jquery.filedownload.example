@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-import time
 
-print "Content-Disposition: attachment; filename=log.txt"
-print "Set-Cookie: fileDownload=true"
+print "Content-Disposition: attachment; filename=demo/log.txt"
+print "Set-Cookie: fileDownload=true;path=/"
 print 'Content-Type: text/html\n'
+
 
 import urllib2
 response = urllib2.urlopen('http://localhost/demo/log.txt')
