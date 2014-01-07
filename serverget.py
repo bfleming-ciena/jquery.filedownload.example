@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import time, Cookie
 
-# Delay to make it realisitc.
+# Delay to make it realistic.
 import time
 time.sleep(5)
 
