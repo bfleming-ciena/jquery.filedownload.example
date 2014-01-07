@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import time
 
-print "Content-Disposition: attachment; filename=demo/log.txt"
+print "Content-Disposition: attachment; filename=log.txt"
 print "Set-Cookie: fileDownload=true"
 print 'Content-Type: text/html\n'
 
