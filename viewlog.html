@@ -71,7 +71,7 @@ $(document).on("click", "a.fileDownloadRichUI", function () {
 
   // The jquery plugin listens for this cookie to be true, that is when it knows the download
   // is complete.  It is set to true by the server script that is run. See server.py.
-  document.cookie = "fileDownload=";
+  // document.cookie = "fileDownload=";
   // url = 'http://localhost/demo/server.py';
   var $preparingFileModal = $("#preparing-file-modal");
   $preparingFileModal.dialog({ modal: true });
